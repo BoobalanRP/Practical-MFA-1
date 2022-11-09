@@ -1,0 +1,234 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+body{
+    font-family: "Source Sans Pro";
+}
+.header__logo{
+    width: 200px;
+    height: 90px;
+    padding: 5px 5px 5px 5px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "Source Sans Pro";
+     margin-left:40px ;
+     margin-right: 40px;
+}
+.text-highlight{
+    color: #c05326;
+    font-weight: bold;
+}
+.navigation__list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.navigation__item{
+    padding-left: 50px;
+    margin-top: 40px;
+    
+    
+}
+.navigation__link{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+}
+.header button{
+    width: 120px;
+    height:40px;
+    margin-top: 25px; 
+    background-color:  #c05326;
+    color: white;
+    border-color:#c05326;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 17px;
+}
+.alert{
+    background-color:#f7eae4;
+    padding: 20px 20px;
+    margin-left: 40px;
+    font-family:"Source Sans Pro" ;
+    width: 900px;
+    font-size: 17px ;
+    border-left: 5px solid #c05326;
+    border-radius: 5px;
+}
+.content{
+    display: flex;
+    }
+    .main {
+        width:60%;
+    }
+    .heading-underline{
+        font-size: 20px;
+        border-bottom: 5px solid #f7eae4;
+        margin-left: 35px;
+        margin-right: 40px;
+        width:950px;
+        font-family:"Source Sans Pro" ;
+        padding-bottom: 5px;
+        margin-top: 15px;
+    }
+    .article p:nth-child(2){
+        width:410px;
+    }
+    .heading-underline1{
+        font-size: 20px;
+        border-bottom: 5px solid #f7eae4;
+        margin-left: 135px;
+        width:420px;
+        margin-right: 40px;
+        padding-bottom: 05px;
+        margin-top: 05px;
+    }
+    .hero{
+        background-image:url(../img/header-bike.jpg);
+        height:350px;
+        width:945px;
+        margin-left: 39px;
+        margin-top: 20px;
+    }
+    .hero {
+        position: relative;
+    }
+    .hero div{
+        position:absolute;
+        top:100px;
+        left:30px;
+    }
+    .hero h1{
+        color: white;
+        font-size: 50px;
+    }
+    .hero div p{
+        margin-top: 25px;
+        color: white;
+        font-size: 20px;
+    }
+    .btn1{
+        width: 170px;
+        height:40px;
+        margin-top: 30px;
+        border-radius: 5px;
+        border:2px solid #c05326;
+        font-family:"Source Sans Pro" ;
+        font-size: 17px;
+        color: white;
+        background-color: #c05326;
+        font-weight: bold;
+
+    }
+    .btn2{
+        width: 100px;
+        height:40px;
+        border: white;
+        border-radius: 5px;
+        margin-top: 30px;
+        font-family:"Source Sans Pro" ;
+        font-size: 17px;
+        color: #c05326;
+        font-weight: bold;
+    }
+    .article{
+        margin-top: 25px;
+        border: 2px solid #e4e4e4;
+        justify-content: space-between;
+        margin-left: 35px;
+        font-family:"Source Sans Pro" ;
+        margin-bottom: 30px;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+    .art{
+        display: flex;
+    }
+    .article__title{
+        padding-top: 20px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+    }
+    .article__read-more{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+    }
+    .article__summary{
+        padding-left: 15px;
+        padding-right: 30px;
+        font-size: 17px;
+    }
+    .article__read-more a{
+        text-decoration:none;
+        font-family:"Source Sans Pro" ;
+        font-size: 17px;
+        font-weight: bold;
+        color:#c05326;
+        padding-left: 40px;
+    }
+    .article__title-link{
+        text-decoration:none;
+        font-family:"Source Sans Pro" ;
+        font-size: 17px;
+        font-weight: bold;
+        color:#c05326;
+        padding-left: 40px;
+    }
+
+    .facebook-link{
+        color:#c05326;
+        margin-left: 400px;
+    }
+    .article1 img{
+        width:110px;
+        height:90px;
+        padding-top: 25px;
+        padding-left: 30px;
+    }
+    .article1{
+        display: flex;
+    }
+    .article1{
+        margin-top: 15px;
+        border-radius: 5px;
+        border: 2px solid #e4e4e4;
+        width:420px;
+        margin-left: 35px;
+        font-family:"Source Sans Pro" ;
+        margin-bottom: 10px;
+        margin-left: 135px;
+        padding-bottom: 20px;
+    }
+    .article1 .article__title-link{
+        padding-left: 0px;
+    }
+    .sidebar .heading-underline{
+        font-size: 20px;
+        border-bottom: 5px solid #f7eae4;
+        margin-left: 135px;
+        margin-right: 40px;
+        font-family:"Source Sans Pro" ;
+        padding-bottom: 15px;
+        margin-top: 25px;
+    }
+    .footer{
+        border-top: 5px solid #f7eae4 ;
+        margin-left: 30px;
+        margin-right: 50px;
+    }
+    .footer div p{
+        display: flex;
+        justify-content: center;
+        font-family:"Source Sans Pro" ;
+        line-height: 30px;
+    }
+    .footer div p strong{
+        font-weight: bold;
+    }
+        
